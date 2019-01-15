@@ -25,7 +25,7 @@ namespace cSharpFinalFix
             SoundPlayer splayer = new SoundPlayer(cSharpFinalFix.Properties.Resources.Clashing);
             splayer.Play();
             //CardArray();
-
+            
             Random rand = new Random();
             int card = rand.Next(1, 52);
             if (card == 1)
